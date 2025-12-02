@@ -1,9 +1,9 @@
-# Toko Kita - Aplikasi Flutter dengan REST API
+# Tokokita - Aplikasi Flutter dengan REST API
 
 ## Identitas Mahasiswa
-- **Nama**: Khonsaa
-- **NIM**: 69
-- **Shift Awal**: A
+- **Nama**: Khonsaa Hilmi Mufiida
+- **NIM**: H1D023069
+- **Shift Awal/KRS**: A
 - **Shift Akhir**: D
 
 ---
@@ -670,34 +670,6 @@ class Produk {
 
 ---
 
-## Struktur Folder Projek
-
-```
-lib/
-├── main.dart
-├── model/
-│   ├── login.dart
-│   ├── registrasi.dart
-│   └── produk.dart
-└── ui/
-    ├── login_page.dart
-    ├── registrasi_page.dart
-    ├── produk_page.dart
-    ├── produk_form.dart
-    └── produk_detail.dart
-
-assets/
-└── screenshots/
-    ├── registrasi.png
-    ├── login.png
-    ├── list_produk.png
-    ├── form_tambah_produk.png
-    ├── detail_produk.png
-    └── form_edit_produk.png
-```
-
----
-
 ## API Endpoints yang Digunakan
 
 1. **POST** `/registrasi` - Mendaftarkan user baru
@@ -710,43 +682,14 @@ assets/
 
 ---
 
-## Cara Menjalankan Aplikasi
-
-1. Pastikan Flutter SDK sudah terinstall
-2. Clone repository ini
-3. Jalankan `flutter pub get` untuk install dependencies
-4. Jalankan XAMPP (Apache dan MySQL)
-5. Setup database dan REST API CodeIgniter sesuai modul
-6. Jalankan aplikasi dengan:
-   ```bash
-   flutter run -d web-server --web-port=8080
-   ```
-7. Buka Chrome di `http://localhost:8080`
-
----
-
 ## Fitur Aplikasi
 
-Registrasi user baru  
-Login user  
-Menampilkan list produk  
-Menambah produk baru  
-Melihat detail produk  
-Mengubah data produk  
-Menghapus produk  
-Logout  
+- Registrasi user baru  
+- Login user  
+- Menampilkan list produk  
+- Menambah produk baru  
+- Melihat detail produk  
+- Mengubah data produk  
+- Menghapus produk
 
 ---
-
-## Teknologi yang Digunakan
-
-- **Frontend**: Flutter
-- **Backend**: CodeIgniter 4 REST API
-- **Database**: MySQL
-- **Web Server**: XAMPP (Apache + MySQL)
-- **API Testing**: Postman
-
----
-
-**Dibuat oleh: Khonsaa (NIM: 69)**  
-**Shift: A - D**
